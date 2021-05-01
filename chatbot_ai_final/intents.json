@@ -1,0 +1,116 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hii", "."],
+         "responses": ["Hello!", "Hi there, how can I help?","yes, how can I help","Good to see you again!", "Welcome", "How can I help ", "yes i am heraring"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "ok thanks", "bye", "Bye Bye", "OK thanks","ok","bye","thanks","Thankyou"],
+         "responses": ["Sad to see you go 😒", "Talk to you later", "Goodbye!", "Catch you later","Take care 😊","Bye","See you later","See you again"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "Your name", "Who are you?","name","tell your name"],
+         "responses": ["You can call your personal assistant.", "I'm your assistant!" ,"I am CollegeBot"],
+         "context_set": ""
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Hmmm...i didn't understand","I cant understand sorry."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","guide me"],
+         "responses": ["I can guide you through the website", "Help you to guide through this website"],
+         "context": [""]
+        },
+        {"tag": "location",
+         "patterns": ["location?", "where are you located at?", "address?", "where is the college located at?","what is it's address"],
+         "responses": ["We are located at Naxal, Kathmandu.", "You can visit us at Naxal, Kathmandu."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["service available", "what are your hours", "hours of operation","available time","open time","available","time","open","service"],
+         "responses": ["We are open from 7am to 5pm"],
+         "context_set": ""
+        },
+        {"tag": "courses",
+          "patterns": ["courses available", "what are the courses provided?", "courses provided?","available courses","subjects?","what subjects does the college provide?","department","department available?"],
+          "responses": ["The courses available are: BIT, BBA, MBA"],
+          "context_set": ""
+         },
+        {"tag": "admission",
+          "patterns": ["admission open?", "when are you taking new admission?", "admission time?","when will new session start?", "Are you taking new admission?"],
+          "responses": ["We are taking admission, please visit the college!"],
+          "context_set": ""
+        },
+        {"tag": "established",
+          "patterns": ["when was the college established?", "when was the college founded?", "established?","established date?"],
+          "responses": ["The college was founded in 2016 AD."],
+          "context_set": ""
+        },
+        {"tag": "ceo",
+          "patterns": ["ceo of the college?", "who is the ceo of the college?", "ceo?"],
+          "responses": ["The CEO of the college is Mr.Vansh Rai Singhania"],
+          "context_set": ""
+        },
+        {"tag": "register",
+          "patterns": ["register", "How do i register?", "should i register","register options","reg","signup","should i register?"],
+          "responses": ["You do not need to register, if you are student of the college email id is given to you, please login through it."],
+          "context_set": ""
+        },
+        {"tag": "login",
+          "patterns": ["login", "signin", "login option","should i login?","how can i login","what are login options?","login option","how do i login","log in"],
+          "responses": ["If you are student of the college email id is given to you, please login through it."],
+          "context_set": ""
+        },
+        {"tag": "facilities",
+          "patterns": ["facility?", "facility", "facilities?","facilities?","What facilites does the college provide?","college facilities","college facility"],
+          "responses": ["The college provide hostel facilities, playgrounds, college canteen, lab equipped with high end systems."],
+          "context_set": ""
+        },
+        {"tag": "scholarship",
+          "patterns": ["scholarship?", "scholarship", "does college provide scholarship","is there any scholarship facility?"],
+          "responses": ["College provides scholarship to the students who score high percentage in the exams. "],
+          "context_set": ""
+        },
+        {"tag": "bit",
+            "patterns": ["BIT", "BIT?", "BIT course","How many year course is bit","BIT year?"],
+            "responses": ["The academic program is 3 years long. This curriculum aims to provide students with knowledge of core computer science concepts by integrating them with current computer languages, methods, techniques, and methodologies used by computer professionals worldwide."],
+            "context_set": ""
+        },
+        {"tag": "bba",
+          "patterns": ["BBA", "BBA?", "BBA course","How many year course is bba","BBA year?"],
+          "responses": ["The academic program is 4 years long. BBA is designed to address the need of the students to learn about themselves as well as the professional world that surrounds them. "],
+          "context_set": ""
+        },
+        {"tag": "mba",
+          "patterns": ["MBA", "MBA?", "MBA course","How many year course is mba","MBA year?"],
+          "responses": ["The academic program is 2 years long. The two-year programme is a gateway to a plethora of job opportunities in the corporate world."],
+          "context_set": ""
+        },
+        {"tag": "bit course",
+          "patterns": ["course structure of BIT", "BIT course structure", "bit course structure","subjects in bit","What subjects are there in BIT?"],
+          "responses": ["The academic program is 3 years long. Year 1: Introductory Programming and Problem Solving,  Fundamentals of Computing,  Embedded System Programming, Computational Mathematics, Internet Software Architecture. Year 2: Concepts and Technologies of AI, Object-Oriented Design and Programming, Distributed and Cloud System Programming, Human Computer Interaction, Numerical Methods and Concurrency. Year 3: Complex System,  High Performance Computing, Project and Professionalism, Artificial Intelligence and Machine Learning, Big Data"],
+          "context_set": ""
+        },
+        {"tag": "bba course",
+          "patterns": ["course structure of BBA", "BBA course structure", "bba course structure","subjects in bba","What subjects are there in BBA?"],
+          "responses": ["The academic program is 4 years long. Year 1: Basic Research, Computer & IT Applications, English Language & Composition, Basic Statistics, Principles of Management, Financial Accounting and Reporting I, Applied Mathematics for Business. Year 2: Financial Accounting and Reporting II, Micro-economics, Applied Sociology, Introduction to Marketing, Macro-economics, Management Accounting, Finance. Year 3: Investment, Human Resource Management, Retail Management, Logic and Reasoning, International Business Management, Introduction to International Relations, Operations Management. Year 4: Research Methods & Skills, Exploring Strategy, New Enterprise Creation, Logistics and Supply Chain Management, Organization Behaviour, Advertising & Marketing Communications"],
+          "context_set": ""
+        },
+        {"tag": "mba course",
+          "patterns": ["course structure of MBA", "MBA course structure", "mba course structure","subjects in mba","What subjects are there in MBA?"],
+          "responses": ["The academic program is 2 years long. Year 1: Advanced Management Concepts Analysis, Organizational Behavior for Managers, Data Analysis for Managers, Global Sustainable Development, Business Economics, Directing Strategy for Value Creation, New Business Development, Introduction to Behavioral Finance. Year 2: Accounting for Managers, Business Management Consulting & Research, Strategic Marketing for Managers, Leadership Power & Policy for Managers, Financial Management, Human Resource Management, International Marketing, Operations & Supply Chain Management."],
+          "context_set": ""
+        },
+        {"tag": "contact",
+          "patterns": ["contact number", "contact number?", "contact details","contact details?","phone number?","phonenumber?","phonenumber","phone number","number","number?"],
+          "responses": ["Contact us: 4222171,4252784"],
+          "context_set": ""
+        }
+
+   ]
+}
+
+
